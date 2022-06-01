@@ -1,0 +1,30 @@
+$white-four: #ffffff;
+$profiles-four: #eeeeee;
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: $white-four;
+  border-bottom: 2px $profiles-four solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileImg {
+  width: 35px;
+  height: 35px;
+  background-color: $profiles-four;
+  border-radius: 100%;
+}
+
+.profileWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7px 34px 8px 0px;
+}
+
+.logo {
+  margin: 4px 0px 3px 20px;
+}

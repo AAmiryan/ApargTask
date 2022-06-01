@@ -1,0 +1,35 @@
+$filtersWrapper: #f7f7f7;
+
+.cityFalconWrapper {
+  margin: 70px 70px;
+}
+
+.watchlistName {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3971c1;
+  margin: 15px 0 15px 0;
+}
+
+.buttonsWrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0;
+}
+
+.filtersWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+  background-color: $filtersWrapper;
+}
+
+.resetButton {
+  margin-bottom: 8px;
+}
